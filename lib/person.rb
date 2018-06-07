@@ -98,14 +98,14 @@ class Person
     #accept two args
     #if topic is politics, both ppl get sadder, return a string
     if topic == "politics"
-      self.happiness = self.happiness - 2
-      person.happiness = person.happiness - 2
-      # self.happiness -= 2
-      # person.happiness -= 2
+      # self.happiness = self.happiness - 2
+      # person.happiness = person.happiness - 2
+      self.happiness -= 2
+      person.happiness -= 2
       puts "@happiness #{self.happiness}"
       puts "person.happiness #{person.happiness}"
-      self.happiness = (@happiness)
-      person.happiness = person.happiness
+      # self.happiness = (@happiness)
+      # person.happiness = person.happiness
       "blah blah partisan blah lobbyist"
     elsif topic == "weather" #if topic is weather, both ppl get happier, return string
       self.happiness=(self.happiness + 1)
