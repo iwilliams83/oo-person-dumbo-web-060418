@@ -98,7 +98,7 @@ class Person
     #accept two args
     #if topic is politics, both ppl get sadder, return a string
     if topic == "politics"
-      self.happiness=(self.happiness - 2)
+      self.happiness = self.happiness - 2
       person.happiness=(person.happiness - 2)
       "blah blah partisan blah lobbyist"
     elsif topic == "weather" #if topic is weather, both ppl get happier, return string
