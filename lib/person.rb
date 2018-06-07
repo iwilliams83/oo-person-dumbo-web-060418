@@ -102,7 +102,7 @@ class Person
       person.happiness = person.happiness - 2
       # self.happiness -= 2
       # person.happiness -= 2
-      puts "@happiness #{@happiness}"
+      puts "@happiness #{self.happiness}"
       puts "person.happiness #{person.happiness}"
       self.happiness = (@happiness)
       person.happiness = person.happiness
